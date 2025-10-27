@@ -28,7 +28,7 @@ export const CategoryFilter = ({ selectedCategory, onCategoryChange }: CategoryF
               className={
                 selectedCategory === category.id
                   ? "bg-primary text-primary-foreground"
-                  : "border-muted hover:border-accent hover:text-accent"
+                  : "border-muted "
               }
               onClick={() => onCategoryChange(category.id)}
             >
